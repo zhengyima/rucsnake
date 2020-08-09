@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Snake</title>
+	<link rel="stylesheet" type="text/css" href="semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="my.css">
+</head>
+<body>
+	<div class="ui inverted menu">
+		<div class="ui container">
+		<div class="header item">Snake</div>
+		<a class="item" href="index.html">Game</a>
+		<a class="item" href="rule.html">Rule</a>
+		<div class="active item" href="upload.html">Upload</div>
+		</div>
+	</div>
+	<div class="ui container">
+		<div class="ui segment">
+			<form class="ui form" id="uploadform">
+				<div class="ui dividing header">上传文件</div>
+				<div class="field">
+					<input type="file" placeholder="Your AI..." name="file">
+				</div>
+				<div class="ui button" onclick="doUpload()">上传</div>
+				<input type="hidden" value="" id="student_id">
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="upload.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#chooseform {
+	width: 100%;
+}
+#fixlist {
+	height: 200px;
+	overflow: auto;
+}
+.color.grid .column {
+	margin: 0.2em;
+	height: 20px;
+	padding: 0!important;
+	text-align: center;
+}
