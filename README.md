@@ -63,6 +63,9 @@ python delet_process.py
 
 
 
+## 效果图
+
+![Alt](http://39.105.149.229/images/show.png)
 
 ## 链接
 - https://github.com/DaoD/Snake
